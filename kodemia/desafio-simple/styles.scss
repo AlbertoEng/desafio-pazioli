@@ -1,0 +1,81 @@
+
+* {
+    box-sizing: content-box;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+}
+
+.rectangle__price {
+    margin-left: 13px;
+}
+
+.price__container--text {
+    position: absolute;
+    top: 317px;
+    left: 35px;
+}   
+
+.black__box {
+    position:absolute;
+    top:321px;
+    left:208px;
+    z-index: -1;
+}
+
+.button__showmore {
+    border: none;
+    background-color: black;
+    border-radius: 8px;
+    color:white;
+    width: 129px;
+    height: 32px;
+    position: absolute;
+    left: 60px;
+}
+
+.button__showmore:hover {
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.shopping__cart {
+    margin-left: 27px;
+    margin-bottom: 8px;
+}
+
+@mixin card__container {
+    box-shadow: 0px 28px 64px 12px rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 8px;
+    width: 250px;
+    height: 350px;
+}
+
+@mixin piano__container {  
+    width:205px;
+    height: 165.86px;
+    padding-left: 20px;
+    padding-top:20px;
+    padding-right:25px;
+}
+
+.vector__image {
+    width: 232px;
+    margin-left: 9px;
+}
+
+.card--piano__container {
+    @include card__container();
+}
+
+.card__piano {
+    @include piano__container();
+}
+
+
+
+
+@media only screen and (min-width:1440px) {
+    // para vw de portatil
+}
