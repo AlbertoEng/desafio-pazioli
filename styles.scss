@@ -1,5 +1,11 @@
 @use "vars";
 
+.main__logo {
+    left: 15.55px;
+    top: 32px;
+    
+   }
+
 * {
     margin: 0%;
     padding: 0%;
@@ -9,21 +15,43 @@
     display: flex;
     width: 960px;
     flex-direction: row;
+    justify-content: end;
 }
-
-.main__logo {
-    left: 15.55px;
-    top: 32px;
-    justify-content: space-around;
-   }
-
-
 
     .menu__text {
         display: inline-block;
         font-family: 'Raleway', sans-serif;
          justify-content: space-around;
         font-weight: bold;
-        justify-content: end;
+        padding: 10px;
     }
 
+    .cart__counter {
+        position: absolute;
+        width: 24px;
+        height: 17px;
+        left: 904px;
+        top: 32px;  
+        background: #FFBA60;
+        border-radius: 50px;
+    }
+
+    .cart__text {
+        
+    position: absolute;
+    width: 24px;
+    height: 17px;
+    left: 904px;
+    top: 32px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+ }
