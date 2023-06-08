@@ -154,4 +154,30 @@
     background-color: #99e79d;
   }
 
+  .contact__form--button{
+    position: absolute;
+    width: 288px;
+    height: 32px;
+    left: 15.55px;
+    top: 3520px;
+
+    background: #000000;
+    border-radius: 8px;
+
+    /* eliminar */
+    /* background-color: #e2e47c; */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em; 
+
+    color: #FFFFFF;
+  }
+
 /*# sourceMappingURL=styles.css.map */
