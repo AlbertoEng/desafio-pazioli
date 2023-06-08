@@ -1,3 +1,19 @@
-h1 {
-  background-color: red;
-}/*# sourceMappingURL=styles.css.map */
+.contact{
+  width: 320px;
+  height: 870px;
+  border-color: #d6c98f;
+  position: absolute;
+  left: 0;
+  top: 2742px;
+
+  /* Agregar colores */
+
+}
+
+.contact-title{
+  position:absolute;
+  width: 152px;
+  height: 32px;
+  left: 83.55px
+  top: 2781px;
+}
