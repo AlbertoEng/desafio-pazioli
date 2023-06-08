@@ -11,16 +11,22 @@
 }
 
 .price__container--text {
-  position: absolute;
-  top: 317px;
-  left: 35px;
+  position: relative;
+  bottom: 48px;
+  left: 32px;
 }
 
 .black__box {
-  position: absolute;
-  top: 321px;
-  left: 208px;
+  position: relative;
+  bottom: 93px;
+  left: 195px;
   z-index: -1;
+}
+
+.shopping__cart {
+  position: relative;
+  bottom: 99px;
+  left: 160px;
 }
 
 .button__showmore {
@@ -30,17 +36,13 @@
   color: white;
   width: 129px;
   height: 32px;
-  position: absolute;
-  left: 60px;
+  position: relative;
+  top: 900px;
+  left: 50px;
 }
 
 .button__showmore:hover {
   background: rgba(0, 0, 0, 0.75);
-}
-
-.shopping__cart {
-  margin-left: 27px;
-  margin-bottom: 8px;
 }
 
 .vector__image {
