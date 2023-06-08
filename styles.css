@@ -11,6 +11,9 @@
   left: 0;
   top: 2742px;
 
+  display: flex;
+  flex-direction: column;
+
   /* eliminar mas tarde */
   background-color: #83598d;
 
@@ -19,14 +22,71 @@
 }
 
 .contact__title{
-  position:absolute;
+  position: absolute;
   width: 152px;
   height: 32px;
   left: 83.55px;
-  /* top: 2781px; */ 
+  top: 2781px;
 
-  /* eliminar mas tarde  */
-  background-color: pink;
+  /* eliminar */
+  background-color: #66c5a5;
+
+  font-family: 'Abril Fatface', cursive;
+    font-size: normal;
+    font-weight: 400;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: .05em;
+    color: #000000;
+    display: flex;
 }
 
 
+.contact__paragraph {
+  position: absolute;
+  width: 288px;
+  height: 114px;
+  left: 15.55px;
+  top: 2852px;
+
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+  display: flex;
+
+
+  /* eliminar */
+  background-color: #a87070;
+}
+
+.contact__form{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.contact__form--label{
+  position: absolute;
+width: 288px;
+height: 36px;
+left: 15.55px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+/*# sourceMappingURL=styles.css.map */
