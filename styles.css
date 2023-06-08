@@ -1,7 +1,7 @@
-.header{
+/* .header{
   display: flex;
   flex-direction: column;
-}
+} */
 
 .contact{
   width: 320px;
@@ -11,14 +11,22 @@
   left: 0;
   top: 2742px;
 
+  /* eliminar mas tarde */
+  background-color: #83598d;
+
   /* Agregar colores */
 
 }
 
-/* .contact-title{
+.contact__title{
   position:absolute;
   width: 152px;
   height: 32px;
-  left: 83.55px
-  top: 2781px;
-} */
+  left: 83.55px;
+  /* top: 2781px; */ 
+
+  /* eliminar mas tarde  */
+  background-color: pink;
+}
+
+
