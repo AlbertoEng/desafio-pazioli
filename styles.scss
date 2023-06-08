@@ -1,5 +1,5 @@
 
-@mixin typography-contact__title(){
+/*@mixin typography-contact__title(){
     font-family: 'Abril Fatface', cursive;
     font-size: normal;
     font-weight: 400;
@@ -11,11 +11,13 @@
     display: flex;
   
 }
-
+*/
+/*
 .contact__title{
     @include typography-contact__title();
 }
-
+*/
+/*
 @mixin typography-contact__paragraph(){
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -27,9 +29,3 @@
     letter-spacing: .05em;
     color: #000000;
     display: flex;
-
-}
-
-.contact__paragraph{
-    @include typography-contact__paragraph();
-}

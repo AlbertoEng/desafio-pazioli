@@ -74,19 +74,56 @@
 
 .contact__form--label{
   position: absolute;
-width: 288px;
-height: 36px;
-left: 15.55px;
+  width: 288px;
+  height: 36px;
+  left: 15.55px;
 
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 19px;
-display: flex;
-align-items: center;
-letter-spacing: 0.05em;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
 
-color: #000000;
+  color: #000000;
+
+  /* eliminar */
+  background-color: #d1d68e;
 }
+
+[for="name"]{
+  top:2990px;
+}
+
+[for="phone"]{
+  top: 3096px;
+}
+
+[for="email"]{
+  top: 3200px;
+}
+
+[for="tell-us-more"]{
+  top: 3304px;
+}
+
+.contact__form--input{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 288px;
+  height: 36px;
+  left: 15.55px;
+
+  background: rgba(0, 0, 0, 0.65);
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+
+  /* eliminar */
+  background-color: #99e79d;
+}
+
+
 /*# sourceMappingURL=styles.css.map */
