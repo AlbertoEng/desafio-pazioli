@@ -1,3 +1,25 @@
-h1 {
-  background-color: red;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.main__header {
+  display: flex;
+  width: 960px;
+  flex-direction: row;
+}
+
+.main__logo {
+  left: 15.55px;
+  top: 32px;
+  justify-content: space-around;
+}
+
+.menu__text {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  justify-content: space-around;
+  font-weight: bold;
+  justify-content: end;
 }/*# sourceMappingURL=styles.css.map */
