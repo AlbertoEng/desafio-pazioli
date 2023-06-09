@@ -8,6 +8,11 @@ footer {
   text-align: center;
 }
 
+footer > .container_contacts {
+  width: 212px;
+  height: 91px;
+}
+
 footer > article > .contacts {
   font-family: "Abril Fatface";
   font-weight: 400;
@@ -16,15 +21,15 @@ footer > article > .contacts {
   color: rgb(0, 0, 0);
 }
 
-footer > .container_contacts {
-  width: 212px;
-  height: 91px;
-}
-
 footer > .container_contacts > article > .contacts {
   font-family: "Abril Fatface";
   font-weight: 400;
   font-size: 14px;
   text-align: center;
   color: rgb(0, 0, 0);
+}
+
+.copyrigth {
+  display: flex;
+  align-items: flex-end;
 }/*# sourceMappingURL=styles.css.map */
