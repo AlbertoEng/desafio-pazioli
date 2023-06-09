@@ -1,5 +1,10 @@
+@import "vars";
 
-
-h1{
-    background-color: red;
+footer {   
+    background: linear-gradient(to top, rgb(0,0,0,.4),$primary-color-w);
+    // position: absolute;
+    // width: 320px;
+    height: 803px;
+    // left: 0px;
+    // top: 4160px;
 }
