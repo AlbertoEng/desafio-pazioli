@@ -6,60 +6,66 @@
 .contact{
   width: 320px;
   height: 870px;
-  border-color: #d6c98f;
-  position: absolute;
+  /* position: absolute;
   left: 0;
-  top: 2742px;
+  top: 2742px; */
 
-  display: flex;
-  flex-direction: column;
+  /* eliminar */
+  border: 5px solid purple;
 
-  /* eliminar mas tarde */
-  background-color: #83598d;
+  /* display: flex;
+  flex-direction: column; */
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.35) 100%);
 
-  /* Agregar colores */
+  background-image: url(assets/darius-soodmand-F8E2tks5N04-unsplash\ 1.png);
+
+
 
 }
 
 .contact__title{
-  position: absolute;
+  position: relative;
+  left: 83.55px;
   width: 152px;
   height: 32px;
-  left: 83.55px;
-  top: 2781px;
+  margin: 20px 0 30px 0;
+  /* 
+  top: 2781px; */
 
   /* eliminar */
   background-color: #66c5a5;
 
   font-family: 'Abril Fatface', cursive;
-    font-size: normal;
-    font-weight: 400;
-    line-height: 32px;
-    align-items: center;
-    text-align: center;
-    letter-spacing: .05em;
-    color: #000000;
-    display: flex;
+  font-size: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* align-items: center; */
+  text-align: center;
+  letter-spacing: .05em;
+  color: #000000;
+    /* display: flex; */
 }
 
 
 .contact__paragraph {
-  position: absolute;
+  position: relative;
   width: 288px;
   height: 114px;
   left: 15.55px;
-  top: 2852px;
+  margin-bottom: 30px;
+  /* top: 2852px; */
 
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 19px;
   font-weight: 400;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.05em;
   color: #000000;
-  display: flex;
+  
+  /* display: flex; */
+
 
 
   /* eliminar */
@@ -67,22 +73,26 @@
 }
 
 .contact__form{
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 
 }
 
 .contact__form--label{
-  position: absolute;
+  position: relative;
+  left: 15.55px;
   width: 288px;
   height: 36px;
-  left: 15.55px;
+  margin-bottom: 15px;
+  
 
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
+
+  /* Para que tomen en ancho y alto pero se podria eliminar */
   display: flex;
   align-items: center;
   letter-spacing: 0.05em;
@@ -92,7 +102,7 @@
   /* eliminar */
   background-color: #d1d68e;
 }
-
+/* 
 [for="name"]{
   top:2990px;
 }
@@ -107,16 +117,17 @@
 
 [for="tell-us-more"]{
   top: 3304px;
-}
+} */
 
 .contact__form--input{
   box-sizing: border-box;
 
-  position: absolute;
+  position: relative;
+  left: 15.55px;
   width: 288px;
   height: 36px;
-  left: 15.55px;
-
+  margin-bottom: 25px;
+  
   background: rgba(0, 0, 0, 0.65);
   border: 1px solid #FFFFFF;
   border-radius: 4px;
@@ -125,7 +136,7 @@
   background-color: #99e79d;
 }
 
-#name{
+/* #name{
   top:3036px;
 }
 
@@ -135,16 +146,18 @@
 
 #email{
   top: 3244px;
-}
+} */
 
 .contact__form--textarea{
   box-sizing: border-box;
 
-  position: absolute;
+  position: relative;
+  left: 15.55px;
   width: 288px;
   height: 148px;
-  left: 15.55px;
-  top: 3348px;
+  margin-bottom: 20px;
+ 
+  /* top: 3348px; */
 
   background: rgba(0, 0, 0, 0.65);
   border: 1px solid #FFFFFF;
@@ -155,11 +168,12 @@
   }
 
   .contact__form--button{
-    position: absolute;
+    position: relative;
+    left: 15.55px;
     width: 288px;
     height: 32px;
-    left: 15.55px;
-    top: 3520px;
+   
+    /* top: 3520px; */
 
     background: #000000;
     border-radius: 8px;
@@ -171,10 +185,11 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
-    display: flex;
+    text-align: center;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: center; */
     letter-spacing: 0.05em; 
 
     color: #FFFFFF;
