@@ -15,11 +15,14 @@
   width: 960px;
   flex-direction: row;
   justify-content: end;
+  flex-wrap: wrap;
 }
 
 .navigation__menu {
-  position: fixed;
+  position: absolute;
+  display: flex;
   top: 15px;
+  flex-wrap: wrap;
 }
 
 .menu__text {
@@ -65,7 +68,7 @@
 }
 
 .cart__counter {
-  font-family: "Raleway", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
