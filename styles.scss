@@ -1,4 +1,14 @@
 @import "vars";
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+@mixin option_n() {
+    font-family: 'Abril Fatface';
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: $primary-color-b;
+
+}
 
 footer {   
     background: linear-gradient(to top, rgb(0,0,0,.4),$primary-color-w);
@@ -7,4 +17,23 @@ footer {
     height: 803px;
     // left: 0px;
     // top: 4160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+ 
+
+}
+
+footer > article > .contacts {
+    @include option_n()
+}
+
+footer > .container_contacts {
+    width: 212px;
+    height: 91px;
+}
+
+footer > .container_contacts > article > .contacts {
+    @include option_n()
 }
