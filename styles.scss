@@ -1,192 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Quicksand:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Quicksand:wght@300&family=Raleway&display=swap');
-
-@import "vars";
-
-* {
-    box-sizing: content-box;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;  
-    letter-spacing: 0.05em;
-    font-family: 'Raleway', sans-serif;
-    // margin:0px;
-    // padding:0px;
-}
-
-.principal__text {
-    font-family: 'Abril Fatface', cursive;
-    width: 288px;
-    height: 72px;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 32px;
-    display: flex;
-    text-align: center;
-    letter-spacing: 0.05em;
-    margin-left: 16px;
-    margin-top: 32px;
-    margin-bottom: 32px;
-}
-
-.dot {
-    font-weight: bolder;
-}
-
-.price__tag {
-    font-size: 16px;
-    line-height: 19px;
-    font-weight: bold;
-}
-
-.name__text {
-    font-family: 'Abril Fatface', cursive;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    padding-left: 12px;
-}
-
-.description__text {
-    position: relative;
-    padding-left: 12px;
-    flex-direction: column;
-}
-
-.ellipse__container {
-    position: relative;
-}
-
-.rectangle__price {
-    margin-left: 16px;
-    margin-top: 10px;
-}
-
-.price__container--text {
-    position: relative;
-    bottom: 52px;
-    left: 27px;
-    font-size: 16px;
-    line-height: 19px;
-}   
-
-.black__box {
-    position: relative;
-    bottom: 100px;
-    left: 200px;
-    z-index: -1;
-}
-
-.shopping__cart {
-    position: relative;
-    bottom: 107px;
-    left: 166px;
-}
-
-.card__piano {  
-    width:205px;
-    height: 165.86px;
-    padding-left: 20px;
-    padding-top:20px;
-    padding-right:25px;
-}
-
-.vector__image {
-    width: 232px;
-    margin-left: 9px;
-}
-
-.button__showmore:hover {
-    background: rgba(0, 0, 0, 0.75);
-}
-
-@mixin button__showmore--color($primary-color,$secondary-color) {
-    border: none;
-    background-color: $primary-color;
-    border-radius: 8px;
-    color: $secondary-color;
-    width: 129px;
-    height: 32px;
-    position: relative;
-    top: 50px;
-    left: 96px;  
-}
-
-@mixin card__container($shadow-color) {
-    box-shadow: $shadow-color;
-    border: none;
-    border-radius: 8px;
-    width: 250px;
-    height: 350px;
-    margin-top: 20px;
-    margin-left: 35px;
-    margin-right: 35px;
-}
-
-.card__butterfly--piano {
-    @include card__container($shadow-color);
-}
-.card__golden--piano {
-    @include card__container($shadow-color);
-}
-.card__walnut--piano {
-    @include card__container($shadow-color);
-}
-
-.button__showmore {
-    @include button__showmore--color($primary-color,$secondary-color);
-}
 
 
 
-
-
-@media only screen and (min-width:992px) {
-    .text__container--all {
-        position: relative;
-        top: 91px;
-     }
-
-    .card__butterfly--piano {
-        display:inline-block;
-        margin-left: 49px;
-        margin-right: 7px;
-        height: 239px;
-        margin-top: 100px;
+@media only screen and (max-width: 378px){
+    body {
+        background-color: yellow;
     }
-
-    .card__piano {
-        height: 165px;
-        position: absolute;
-        bottom: 312px;
+    h1{
+        font-size: 50px;
+        color: red;
     }
-
-    .card__golden--piano {
-        display:inline-block;
-        margin-left: 49px;
-        margin-right: 7px;
-        height: 239px;
-        margin-top: 100px;
+    
+}
+@media only screen and (min-width: 378px){
+    body {
+        background-color: blue;
     }
-    .card__walnut--piano {
-        display:inline-block;
-        margin-left: 49px;
-        margin-right: 7px;
-        height: 239px;
-        margin-top: 100px;
+    h1{
+        font-size: 50px;
     }
-    .principal__text {
-        padding-left: 246px;
-        width: 470px;
-        height: 62px;
-        font-size: 32px;
-        line-height: 43px;
-        margin-bottom: 81px;
-        margin-top: 81px;
+    
+}
+@media only screen and (min-width: 500px){
+    body {
+        background-color: green;
     }
-    .button__showmore{
-        left: 417px;
-        top: 84px;
+    h1{
+        font-size: 80px;
     }
 }
