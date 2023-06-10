@@ -11,8 +11,6 @@
   height: 870px; 
   background-image: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.35) 100%),url(assets/darius-soodmand-F8E2tks5N04-unsplash1.png);
 
-  border: 5px solid red;
-
 }
 
 .contact__title{
@@ -29,7 +27,7 @@
   /* font-size: normal; */
   font-weight: 400px;
   line-height: 32px;
-  letter-spacing: .03em;
+  letter-spacing: .05em;
   color: #000000;
 }
 
@@ -141,7 +139,7 @@
       width: 470px;
       height: 62px;
   
-      font-size: 56px;
+      font-size: 32px;
       font-weight: 400;
 
       line-height: 32px;
