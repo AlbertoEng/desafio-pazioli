@@ -10,6 +10,9 @@
 
 }
 
+body {
+    margin: 0px;
+}
 footer {   
     background: linear-gradient(to top, rgb(0,0,0,.4),$primary-color-w);
     height: 803px;
@@ -33,6 +36,8 @@ footer > .container_contacts > article > .contacts {
 }
 
 .copyrigth{
-    display: flex;
+    position: absolute;
+    bottom: 56px;
+
 
 }
