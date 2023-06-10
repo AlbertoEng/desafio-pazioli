@@ -11,11 +11,11 @@
   left: 83.55px;
   width: 152px;
   height: 32px;
-  margin: 20px 0 30px 0;
+  padding: 20px 0 30px 0;
  
   font-family: 'Abril Fatface', cursive;
   font-size: normal;
-  font-weight: 400;
+  font-weight: bold;
   line-height: 32px;
   letter-spacing: .05em;
   color: #000000;
@@ -27,7 +27,7 @@
   width: 288px;
   height: 114px;
   
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -44,7 +44,7 @@
   left: 15.55px;
   width: 288px;
   height: 36px;
-  margin-bottom: 15px;
+  margin-bottom: 13px;
   
 
   font-family: 'Raleway';
@@ -67,7 +67,7 @@
   left: 15.55px;
   width: 288px;
   height: 36px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   
   background: rgba(0, 0, 0, 0.65);
   border: 1px solid #FFFFFF;
@@ -81,7 +81,7 @@
   left: 15.55px;
   width: 288px;
   height: 148px;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 
   background: rgba(0, 0, 0, 0.65);
   border: 1px solid #FFFFFF;
@@ -114,13 +114,13 @@
 
   @media only screen and (min-width:992px){
     .contact{
+      position: relatives;
       width: 960px;
       height: 854px;
 
-      background-image: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.35) 100%),url(assets/darius-soodmand-F8E2tks5N04-unsplash1.png);
+      background-image: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.35) 100%),url(assets/darius-soodmand-F8E2tks5N04-unsplash1-desktop.png);
       background-repeat: no-repeat;
       background-size: 100% 100%;  
-      image-rendering: auto;
     }
 
     .contact__title{
@@ -130,9 +130,10 @@
       height: 62px;
   
       font-size: 32px;
+      font-weight: bold;
       line-height: 43px;
       text-align: center;
-      margin: 40px 0 30px 0;
+      padding: 130px 0 0 0;
     }
     
     .contact__paragraph{
@@ -143,17 +144,37 @@
       text-align: center;
     }
     
-    .contact__form--label{
+    .contact__form--label--desktop{
       position: relative;
       left: 248px;
-      width: 125px;
-      height: 36px;
+      width: 200px;
+      margin-bottom: 15px;
+    
     }
 
-    .contact__form--input{
-      position: relative;
+    .contact__form--input--desktop{
       left: 248px;
       width: 464px;
+    }
+
+    .contact__form--flex1{
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      left: 248px;
+    }
+
+    .contact__form--flex2{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      left: 475px;
+    }
+
+
+    .contact__form--label--inline,
+    .contact__form--input--inline{
+      width: 224px;
     }
 
     .contact__form--textarea{
