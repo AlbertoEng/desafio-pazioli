@@ -11,7 +11,8 @@
     line-height: 14px;  
     letter-spacing: 0.05em;
     font-family: 'Raleway', sans-serif;
-
+    // margin:0px;
+    // padding:0px;
 }
 
 .principal__text {
@@ -142,20 +143,38 @@
 
 
 @media only screen and (min-width:992px) {
+    .text__container--all {
+        position: relative;
+        top: 91px;
+     }
+
     .card__butterfly--piano {
         display:inline-block;
         margin-left: 49px;
-        margin-right: 7px;;
+        margin-right: 7px;
+        height: 239px;
+        margin-top: 100px;
     }
+
+    .card__piano {
+        height: 165px;
+        position: absolute;
+        bottom: 312px;
+    }
+
     .card__golden--piano {
         display:inline-block;
         margin-left: 49px;
-        margin-right: 7px;;
+        margin-right: 7px;
+        height: 239px;
+        margin-top: 100px;
     }
     .card__walnut--piano {
         display:inline-block;
         margin-left: 49px;
-        margin-right: 7px;;
+        margin-right: 7px;
+        height: 239px;
+        margin-top: 100px;
     }
     .principal__text {
         padding-left: 246px;
@@ -167,8 +186,7 @@
         margin-top: 81px;
     }
     .button__showmore{
-        // position:relative;
         left: 417px;
-        top: 0px;
+        top: 84px;
     }
 }
